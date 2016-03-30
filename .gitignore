@@ -1,0 +1,86 @@
+# Python compiled sources
+*.pyc
+
+# IDE files
+/.idea/
+.project
+.pydevproject
+
+# Project files
+/var/
+/etc/settings.yml
+/.env
+
+# Packaging
+/.cache/
+/.eggs/
+/build/
+/dist/
+/src/*.egg-info
+
+# Testing
+/.tox/
+
+# Python coverage
+.coverage
+/coverage.xml
+/htmlcov/
+
+#ignore sqlite3
+*.sqlite3
+
+#python bytecode
+__pycache__/
+*.py[cod]
+
+#test stuff
+.tox/
+.coverage
+.cache/
+coverage.xml
+*junit.xml
+htmlcov
+venv
+.sonar
+
+#pip stuff
+pip-log.txt
+.pipcache
+
+#mac stuff
+.DS_Store
+
+#editor stuff
+*.swp
+.tags
+
+#static files
+/static
+
+#pyCharm stuff
+.idea/
+.nfs*
+
+# covers
+*,cover
+
+# applog things
+*.err
+*.log
+*.perf
+*.trace
+
+# Search results log
+votes.txt
+
+# DB
+*.sqlite3
+votes.txt
+nohup.out
+
+#decouple settings
+.env
+runserver.sh
+.ropeproject/
+.project
+.pydevproject
